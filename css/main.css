@@ -28,6 +28,10 @@ body {
     background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
+    background-image: url("../img/bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 footer{
     flex: 0 0 auto;
@@ -51,7 +55,7 @@ main {
     text-align: center;
 }
 .regular-main{
-    padding: 40px 0;
+    padding: 0 0 40px;
 }
 
 
@@ -296,12 +300,12 @@ main {
 .swiper-pagination-bullet {
     height: 18px !important;
     width: 18px !important;
-    background-color:#FFFFFF !important;
+    background-color:#24A4DD !important;
     opacity: 1 !important;
 }
 
 .swiper-pagination-bullet-active {
-    background-color: #24A4DD !important;
+    background-color: #FFFFFF !important;
 }
 
 .swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled {
